@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    background-color: rgb(45, 2, 85);
+
+}
+
+.container > div{
+    font-family: monospace;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    padding: 10px 20px;
+  
+    a{
+        text-decoration: none;
+        color: #000;
+        color: #fff;
+    }
+    button{
+        font-family: monospace;
+        background: unset;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+    }
+}

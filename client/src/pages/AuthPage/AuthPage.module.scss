@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 400px;
+  font-family: monospace;
+
+  .title {
+    display: block;
+    margin-top: 20px;
+    text-decoration: dashed;
+    font-size: 20px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+      padding: 10px;
+    }
+
+    .actionButtons {
+      display: flex;
+      gap: 20px;
+
+      button {
+        border: 1px;
+        padding: 7px 10px;
+        cursor: pointer;
+        transition: 0.2s linear all;
+
+        &:hover {
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+}

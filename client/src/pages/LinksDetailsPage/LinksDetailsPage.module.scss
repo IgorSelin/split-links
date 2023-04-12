@@ -1,0 +1,17 @@
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+  .linkDescription {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}

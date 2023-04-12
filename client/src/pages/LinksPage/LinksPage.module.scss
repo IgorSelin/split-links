@@ -1,0 +1,44 @@
+.container {
+  margin: 40px;
+
+  .table {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 20px;
+
+    .header {
+      display: flex;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      gap: 20px;
+
+      .row {
+        display: flex;
+      }
+    }
+
+    .order {
+      width: 5%;
+    }
+
+    .from {
+      width: 40%;
+      word-wrap: break-word;
+    }
+    .to {
+      width: 40%;
+      word-wrap: break-word;
+    }
+
+    .open {
+      width: 15%;
+    }
+  }
+}
